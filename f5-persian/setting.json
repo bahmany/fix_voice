@@ -1,0 +1,21 @@
+{
+    "exp_name": "F5TTS_v1_Base",
+    "learning_rate": 7.5e-05,
+    "batch_size_per_gpu": 12000,
+    "batch_size_type": "frame",
+    "max_samples": 64,
+    "grad_accumulation_steps": 1,
+    "max_grad_norm": 1,
+    "epochs": 103,
+    "num_warmup_updates": 6418,
+    "save_per_updates": 5000,
+    "keep_last_n_checkpoints": -1,
+    "last_per_updates": 5000,
+    "finetune": true,
+    "file_checkpoint_train": "",
+    "tokenizer_type": "char",
+    "tokenizer_file": "",
+    "mixed_precision": "fp16",
+    "logger": "none",
+    "bnb_optimizer": false
+}

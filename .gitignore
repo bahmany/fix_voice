@@ -1,0 +1,7 @@
+.venv-tts/
+__pycache__/
+*.pyc
+*.pt
+*.safetensors
+*.bin
+.claude/
